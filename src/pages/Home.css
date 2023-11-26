@@ -1,0 +1,46 @@
+.card-artist {
+    height: 100%;
+}
+
+@media screen and (max-width: 1600px) {
+    .track-wrapper {
+        max-width: 90%;
+    }
+    .card-track__info h2,p {
+        font-size: smaller;
+    }
+    .liked-icon {
+        font-size: smaller;
+    }
+    .liked-icon {
+        font-size: smaller;
+    }
+}
+@media screen and (max-width: 950px) {
+    .track-wrapper {
+        max-width: 80%;
+    }
+    .card-track__info h2,p {
+        font-size: x-small;
+    }
+    .liked-icon {
+        font-size: x-small;
+    }
+    .liked-icon {
+        font-size: x-small;
+    }
+}
+@media screen and (max-width: 700px) {
+    .track-wrapper {
+        max-width: 60%;
+    }
+    .card-track__info h2,p {
+        font-size: xx-small;
+    }
+    .liked-icon {
+        font-size: xx-small;
+    }
+    .liked-icon {
+        font-size: xx-small;
+    }
+}
